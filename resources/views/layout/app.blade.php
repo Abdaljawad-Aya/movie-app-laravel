@@ -57,7 +57,7 @@
             </div>
             <div class="ml-4">
                 <a href="#">
-                    <img src="{{ asset('img/white.jpg') }}" alt="avatar" class="rounded-full w-8 h-8">
+                    <img src="{{ asset('img/avatar.webp') }}" alt="avatar" class="rounded-full w-8 h-8">
                 </a>
             </div>
         </div>
