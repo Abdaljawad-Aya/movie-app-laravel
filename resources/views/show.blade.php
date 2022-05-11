@@ -32,17 +32,16 @@
                 <h4 class="text-white font-semibold">Featured Cast</h4>
                 <div class="flex mt-4">
                     @foreach ($popular['credits']['crew'] as $crew)
-                    @if ($loop->index < 2) 
-                    <div class="mr-8">
+                    @if ($loop->index < 2) <div class="mr-8">
                         <div>{{ $crew['name'] }}</div>
                         <div class="text-sm text-gray-400">{{ $crew['job'] }}</div>
-                    </div>
-                    @endif
+                </div>
+                @endif
                 @endforeach
             </div>
         </div>
 
-        {{--  if there is result of videos then show if there is no results don't render--}}
+        {{-- if there is result of videos then show if there is no results don't render--}}
         @if (count($popular['videos']['results']) > 0)
 
         <div class="mt-12">
@@ -68,8 +67,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid:cols-3 lg:grid-cols-5 gap-16">
             <div class="mt-8">
                 <a href="#">
-                    <img src="{{ }}" alt="test"
-                        class="hover:opacity-75 transition ease-in-out duration-150">
+                    <img src="{{ }}" alt="test" class="hover:opacity-75 transition ease-in-out duration-150">
                 </a>
                 <div class="mt-2">
                     <a href="#" class="text-lg mt-2 hover:text-gray:300">Test</a>

@@ -27,8 +27,8 @@ class MoviesController extends Controller
             return [$genre['id'] => $genre['name']];
         });
 
-        // dump($nowPlaying);
         return view('index', [
+            // three endpoints
             'popularMovies' => $popularMovies,
             'nowPlaying' => $nowPlaying,
             'genres'   => $genres
@@ -38,7 +38,7 @@ class MoviesController extends Controller
     public function show($id)
     {
         $popular = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/movie/' . $id. '?append_to_response=credits,videos,images')
+            ->get('https://api.themoviedb.org/3/movie/' . $id . '?append_to_response=credits,videos,images')
             ->json();
         // dump($popular);    
         return view('show', [
