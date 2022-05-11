@@ -9,7 +9,8 @@
    </div>
    <div class="now-playing-movies py-24">
       <h2 class="uppercase tracking-wider text-blue-100 text-lg font-semibold">Now Playing</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid:cols-3 lg:grid-cols-5 gap-16">@foreach ($nowPlaying as $popular)<x-movie-card :popular="$popular" :genres="$genres" />
+      {{-- :genres="$genres" --}}
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid:cols-3 lg:grid-cols-5 gap-16">@foreach ($nowPlaying as $popular)<x-movie-card :popular="$popular"  />
          @endforeach
       </div>
    </div>

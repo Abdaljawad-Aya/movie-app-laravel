@@ -2,8 +2,8 @@
     <input wire:model.debounce.500ms="search" 
            type="text" 
            id="search-navbar" 
-           class="block p-2 pl-10 w-full text-gray-900 bg-blue-200
-                  border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 
+           class="block p-2 pl-10 w-full text-blue-900 bg-blue-200
+                  border border-white-300 sm:text-sm focus:ring-blue-500 focus:border-white-500 dark:bg-blue-700 
                   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 
                   focus:outline-none focus:shadow-outline"
            placeholder="Search..."
