@@ -9,6 +9,7 @@
 
     {{-- <livewire:styles > --}}
     @livewireStyles
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body class="font-sans bg-blue-900 text-white">
     <nav class="border-b border-blue-800">
@@ -32,9 +33,9 @@
             <div class="flex flex-col md:flex-row items-center py-5">
                 <livewire:search-drop-down>
                 <div class="ml-4">
-                    <a href="#">
+                    {{-- <a href="#">
                         <img src="{{ asset('img/avatar.webp') }}" alt="avatar" class="rounded-full w-8 h-8">
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>
