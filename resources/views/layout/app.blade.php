@@ -25,7 +25,7 @@
                             class="inline-block p-4 text-blue-100 rounded-t-lg border-b-2 border-blue-600 dark:text-blue-500 hover:border-gray-300"
                             aria-current="page">Movies</a></li>
                     <li class="mr-2">
-                        <a href="#"
+                        <a href="{{ route('tv.index') }}"
                             class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-blue-600 hover:border-gray-300 dark:hover:text-gray-300">TV
                             Shows</a></li></ul>
             </div>
