@@ -4,6 +4,13 @@ https://lara-movie-api.herokuapp.com/
 
 ## Project Screenshot
 
+
+![movie-api-one](https://user-images.githubusercontent.com/71769818/168270635-fecb5837-059b-4e5f-a425-38d4846fb5ff.png)
+![movie-api-two](https://user-images.githubusercontent.com/71769818/168270629-ffc22f2e-f43f-4e16-9edf-d6f7d3e1307e.png)
+![movie-api-three](https://user-images.githubusercontent.com/71769818/168270622-732ca005-8985-4fc8-9489-4ec2f0024a83.png)
+![movie-api-search](https://user-images.githubusercontent.com/71769818/168270619-b48e0b73-96c1-439a-a21f-31e0f282bef3.png)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

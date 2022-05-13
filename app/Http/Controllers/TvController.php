@@ -23,7 +23,7 @@ class TvController extends Controller
         $topRatedTv = Http::asJson()
             ->withToken(config('services.tmdb.token'))
             ->get('https://api.themoviedb.org/3/tv/top_rated')
-            ->collect(['results'])->take(15);
+            ->collect(['results'])->take(14);
         
         // return view('livewire.search-drop-down', [
         //     'searchResults' => collect($searchResults)->take(5),
