@@ -20,11 +20,11 @@ class MoviesController extends Controller
 
         $nowPlaying = Http::withToken(config('services.tmdb.token'))
             ->get('https://api.themoviedb.org/3/movie/now_playing')
-            ->json()['results'];
+            ->json()['results'] ?? null;
 
         $genres = Http::withToken(config('services.tmdb.token'))
             ->get('https://api.themoviedb.org/3/genre/movie/list')
-            ->json()['genres'];
+            ->json()['genres'] ?? null;
         // $genres = collect($genresArray)->mapWithKeys(function ($genre) {
         //     return [$genre['id'] => $genre['name']];
         // });
