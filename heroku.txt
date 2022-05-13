@@ -1,7 +1,6 @@
 # install heroku CLI first 
 https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 
-
 ## step to initilize your project
 https://juangsalazprabowo.medium.com/how-to-deploy-a-laravel-app-into-heroku-df55efbf8e4e
 
@@ -14,10 +13,8 @@ web: vendor/bin/heroku-php-apache2 public/
 - git commit -m “Initial Commit”
 - git push heroku master
 
-
 ## if your facing errors with you your repo in heroku 
 ## jsut do these steps 
-
 
 // Check for the current url 
 git remote -v

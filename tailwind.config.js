@@ -4,6 +4,7 @@ module.exports = {
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
+        "./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js"
     ],
     theme: {
         extend: {
@@ -22,5 +23,6 @@ module.exports = {
     },
     plugins: [
         require('tailwindcss-spinner')({className: 'spinner', themeKey: 'spinner'}),
+        require('tw-elements/dist/plugin')
     ],
 }
