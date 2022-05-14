@@ -6,6 +6,7 @@ module.exports = {
         "./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js"
     ],
     darkMode: 'class',
+    // [x-cloak]: { display: none},
     theme: {
         extend: {
             width: {

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"
    x-cloak
-   x-data="{darkMode: sessionStorage.getItem('dark') === 'true'}"
-   x-init="$watch('darkMode', val => sessionStorage.setItem('dark', val))"
+   x-data="{darkMode: localStorage.getItem('dark') === 'true'}"
+   x-init="$watch('darkMode', val => localStorage.setItem('dark', val))"
    x-bind:class="{'dark' : darkMode}"
 >
 
@@ -15,7 +15,7 @@
 
     {{-- <livewire:styles > --}}
     <style>
-      [x-cloak] { display: none !important;}
+      /* [x-cloak] { display: none !important;} */
     </style>
     @livewireStyles
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
