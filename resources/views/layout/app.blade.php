@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en"
    x-cloak
    x-data="{darkMode: localStorage.getItem('dark') === 'true'}"
