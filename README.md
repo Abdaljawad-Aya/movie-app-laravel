@@ -4,6 +4,10 @@ https://lara-movie-api.herokuapp.com/
 
 ## Project Screenshot
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 712f0398988f764b57ef5547cd816a52c23e63cf
 ![movie-api-one](https://user-images.githubusercontent.com/71769818/168270635-fecb5837-059b-4e5f-a425-38d4846fb5ff.png)
 ![movie-api-two](https://user-images.githubusercontent.com/71769818/168270629-ffc22f2e-f43f-4e16-9edf-d6f7d3e1307e.png)
 ![movie-api-three](https://user-images.githubusercontent.com/71769818/168270622-732ca005-8985-4fc8-9489-4ec2f0024a83.png)
