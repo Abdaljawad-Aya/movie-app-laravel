@@ -14,7 +14,7 @@ web: vendor/bin/heroku-php-apache2 public/
 - git push heroku master
 
 ## if your facing errors with you your repo in heroku 
-## jsut do these steps 
+## just do these steps 
 
 // Check for the current url 
 git remote -v
@@ -23,4 +23,5 @@ git remote -v
 git remote rm heroku
 
 // re-add the remote url
-git remote add heroku git@heroku.com:boiling-inlet-6957.git
+// add your heroku repo git this is just an example
+git remote add heroku git@example.com:test-test-6957.git
